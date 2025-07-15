@@ -21,7 +21,7 @@ def render_Newuser_NavBar():
     col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 2, 2])
     with col1:
         if st.button("About Us", key= "AboutUs_btn", help="About Us", use_container_width= True):
-            st.session_state.page = "about us"
+            st.session_state.page = "about_us"
     
     with col5:
         if st.button("LOG IN/SIGN UP", key= "Login_btn", help="LOG IN/SIGN UP", use_container_width= True):
